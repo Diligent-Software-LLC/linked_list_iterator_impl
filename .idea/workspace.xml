@@ -34,13 +34,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/linked_list_iterator_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linked_list_iterator_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_iterator_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_iterator_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_iterator_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_iterator_impl_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586192114356</updated>
-      <workItem from="1586192117273" duration="35524000" />
+      <workItem from="1586192117273" duration="35983000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License.">
       <created>1586193827698</created>
@@ -250,10 +245,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586193827698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Development Complete&#10;&#10;Added LinkedListIterator class. Added tests. All tests pass. Added a development and runtime dependency.">
+      <created>1586357949518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586357949518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #Development " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #Documenting " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -263,7 +265,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License." />
+    <MESSAGE value="Development Complete&#10;&#10;Added LinkedListIterator class. Added tests. All tests pass. Added a development and runtime dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added LinkedListIterator class. Added tests. All tests pass. Added a development and runtime dependency." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -275,10 +278,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586192389449" />
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586193827248">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586357948834">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586193827248" />
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586357948834" />
     <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586353817187">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
