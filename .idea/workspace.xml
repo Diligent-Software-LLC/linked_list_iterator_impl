@@ -35,7 +35,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586192114356</updated>
-      <workItem from="1586192117273" duration="35983000" />
+      <workItem from="1586192117273" duration="36798000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License.">
       <created>1586193827698</created>
@@ -252,10 +252,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586357949518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Documenting Complete&#10;&#10;Edited README.md.">
+      <created>1586358531286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586358531286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #Documenting " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Prepare Deploy}  " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -266,7 +273,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License." />
     <MESSAGE value="Development Complete&#10;&#10;Added LinkedListIterator class. Added tests. All tests pass. Added a development and runtime dependency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added LinkedListIterator class. Added tests. All tests pass. Added a development and runtime dependency." />
+    <MESSAGE value="Documenting Complete&#10;&#10;Edited README.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Documenting Complete&#10;&#10;Edited README.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -278,26 +286,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586192389449" />
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586357948834">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586358530966">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586357948834" />
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586353817187">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586358530966" />
+    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586359092905">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586353817187" />
-    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1586353817187">
+    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586359092905" />
+    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1586359092904">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586353817187" />
-    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1586353817186">
+    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586359092904" />
+    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1586359092903">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586353817186" />
-    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1586353817187">
+    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586359092903" />
+    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1586359092904">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586353817187" />
+    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586359092904" />
     <state x="348" y="149" key="SettingsEditor" timestamp="1586192391136">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -330,7 +338,7 @@
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_eo_x1b.rcov" NAME="test_eo_x1b Coverage Results" MODIFIED="1586352060030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_node_ass_x2.rcov" NAME="test_node_ass_x2 Coverage Results" MODIFIED="1586352850116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_io_x2.rcov" NAME="test_io_x2 Coverage Results" MODIFIED="1586351417345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
-    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@LinkedListIteratorTest.rcov" NAME="LinkedListIteratorTest Coverage Results" MODIFIED="1586353811943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
+    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@LinkedListIteratorTest.rcov" NAME="LinkedListIteratorTest Coverage Results" MODIFIED="1586359056740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_data_ass_x2.rcov" NAME="test_data_ass_x2 Coverage Results" MODIFIED="1586350641935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_io_x1.rcov" NAME="test_io_x1 Coverage Results" MODIFIED="1586351354474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_eo_x1a.rcov" NAME="test_eo_x1a Coverage Results" MODIFIED="1586351844869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />

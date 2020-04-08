@@ -129,7 +129,7 @@ class LinkedListIterator < LinkedListIteratorInt
 
     pos   = position()
     error = IndexError
-    unless (pos < (count_nodes(node()) - 1))
+    unless (pos < (count_nodes() - 1))
       raise(error, 'The position is the list\'s upper boundary.')
     else
       node          = node()
@@ -151,7 +151,7 @@ class LinkedListIterator < LinkedListIteratorInt
 
     pos   = position()
     error = IndexError.new()
-    unless (pos > (count_nodes(node()) - 1))
+    unless (pos > (count_nodes() - 1))
       raise(error, 'The position is the list\'s lower boundary.')
     else
       node          = node()
@@ -213,17 +213,15 @@ class LinkedListIterator < LinkedListIteratorInt
 
   end
 
-  # count_nodes(l_node = nil).
+  # count_nodes().
   # @description
   #   Counts the list's nodes.
-  # @param l_node [Node]
-  #   A list's node.
   # @return [Integer]
   #   The list's node quantity.
-  def count_nodes(l_node = nil)
+  def count_nodes()
 
     count = 1
-    lbr   = l_node
+    lbr   = node()
     while (!lbr.back().nil?())
       lbr = lbr.back()
     end
