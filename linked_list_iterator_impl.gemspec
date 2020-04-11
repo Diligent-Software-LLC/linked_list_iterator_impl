@@ -43,10 +43,10 @@ Greatly appreciated.}
   spec.add_development_dependency 'bundler', '~> 2.1.0'
   spec.add_development_dependency 'simplecov', '~> 0.17.0'
   spec.add_development_dependency 'linked_list_iterator_int', '~> 1.0.0'
-  spec.add_development_dependency 'node', '~> 2.1.0'
+  spec.add_development_dependency 'node', '~> 3.0.0'
 
   # Gem specific runtime dependencies
   spec.add_runtime_dependency 'linked_list_iterator_int', '~> 1.0.0'
-  spec.add_runtime_dependency 'node', '~> 2.1.0'
+  spec.add_runtime_dependency 'node', '~> 3.0.0'
 
 end

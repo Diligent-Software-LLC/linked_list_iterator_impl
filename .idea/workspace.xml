@@ -33,8 +33,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+    <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="Prepare Deploy&#10;&#10;Updated Changelog.md.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aAxHvVRIEBr3EvfAHWdcMGmquS" />
@@ -63,6 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -225,6 +232,10 @@
     </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SuitableConfigurationIdsCache">
+    <FIRST_MONTH_REVISION values="9a0d381dacc8183432ad740a62272818e266a4ad" />
+    <SUITABLE_CONFIGURATIONS_IDS values="bt14" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -235,7 +246,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586192114356</updated>
-      <workItem from="1586192117273" duration="37063000" />
+      <workItem from="1586192117273" duration="39625000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License.">
       <created>1586193827698</created>
@@ -265,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586359126943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Prepare Deploy&#10;&#10;Updated Changelog.md.">
+      <created>1586359388878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586359388878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Prepare Deploy}  " />
@@ -292,7 +310,8 @@
     <MESSAGE value="Development Complete&#10;&#10;Added LinkedListIterator class. Added tests. All tests pass. Added a development and runtime dependency." />
     <MESSAGE value="Documenting Complete&#10;&#10;Edited README.md." />
     <MESSAGE value="Minor Edits&#10;&#10;Removed count_nodes parameter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Edits&#10;&#10;Removed count_nodes parameter." />
+    <MESSAGE value="Prepare Deploy&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deploy&#10;&#10;Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -304,30 +323,38 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586192389449" />
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586359369069">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586361211067">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586359369069" />
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586359092905">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586361211067" />
+    <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1586644779456">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586359092905" />
-    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1586359092904">
+    <state width="1526" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586644779456" />
+    <state width="1526" height="271" key="GridCell.Tab.0.center" timestamp="1586644779455">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586359092904" />
-    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1586359092903">
+    <state width="1526" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586644779455" />
+    <state width="1526" height="271" key="GridCell.Tab.0.left" timestamp="1586644779455">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586359092903" />
-    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1586359092904">
+    <state width="1526" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586644779455" />
+    <state width="1526" height="271" key="GridCell.Tab.0.right" timestamp="1586644779456">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586359092904" />
+    <state width="1526" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586644779456" />
     <state x="348" y="149" key="SettingsEditor" timestamp="1586192391136">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="348" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1586192391136" />
+    <state x="439" y="250" key="Vcs.Push.Dialog.v2" timestamp="1586361450784">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="439" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1586361450784" />
+    <state x="710" y="252" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1586361165539">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="710" y="252" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.23.1680.975@0.23.1680.975" timestamp="1586361165539" />
     <state x="431" y="235" width="816" height="550" key="find.popup" timestamp="1586192866680">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
