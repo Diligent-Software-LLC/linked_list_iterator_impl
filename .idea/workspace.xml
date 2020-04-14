@@ -34,9 +34,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_iterator_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_iterator_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +253,7 @@
       <updated>1586192114356</updated>
       <workItem from="1586192117273" duration="39625000" />
       <workItem from="1586644699225" duration="323000" />
-      <workItem from="1586812978931" duration="10176000" />
+      <workItem from="1586812978931" duration="10701000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License.">
       <created>1586193827698</created>
@@ -313,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586813633231</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Development Complete&#10;&#10;Fixed YARDocumentation. Updated linked_list_iterator_impl.rb method signatures. Rewrote data=. Assigned constant ONE. Fixed node= exception type. Rewrote linked_list_iterator_impl_test.rb.">
+      <created>1586827278912</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586827278912</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Prepare Deploy} Sprints: 4" />
@@ -345,7 +350,8 @@
     <MESSAGE value="Prepare Deploy&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Bumped Dependencies&#10;&#10;Updated dependencies." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated Gem Specification." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Updated Gem Specification." />
+    <MESSAGE value="Development Complete&#10;&#10;Fixed YARDocumentation. Updated linked_list_iterator_impl.rb method signatures. Rewrote data=. Assigned constant ONE. Fixed node= exception type. Rewrote linked_list_iterator_impl_test.rb." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Fixed YARDocumentation. Updated linked_list_iterator_impl.rb method signatures. Rewrote data=. Assigned constant ONE. Fixed node= exception type. Rewrote linked_list_iterator_impl_test.rb." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -357,10 +363,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586192389449" />
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586813632664">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586827278447">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586813632664" />
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586827278447" />
     <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586826538997">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

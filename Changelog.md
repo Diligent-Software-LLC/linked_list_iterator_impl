@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.0.1, 2020-04-13
+
+### Added
+
+### Edited
+
+- Gem Specification.
+- linked_list_iterator_impl.rb method signatures.
+- Rewrote data= method.
+- Assigned ONE constant.
+- Rewrote linked_list_iterator_impl.rb.
+
+### Fixed
+
+- YARDocumentation.
+- node= exception type.
+
 ## v1.0.0, 2020-04-11
 
 ### Added
