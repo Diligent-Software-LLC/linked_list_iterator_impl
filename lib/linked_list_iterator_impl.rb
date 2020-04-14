@@ -12,21 +12,21 @@ require_relative "linked_list_iterator_impl/version"
 #   A list position.
 class LinkedListIterator < LinkedListIteratorInt
 
-  # initialize(llist = nil).
+  # initialize(l_n = nil).
   # @description
-  #   Initializes a LinkedListIterator.
-  # @param llist [LinkedList]
+  #   Initializes a LinkedListIterator instance.
+  # @param l_n [LinkedList]
   #   A list.
   # @return [LinkedListIterator]
-  #   A LinkedListIterator.
-  def initialize(llist = nil)
-    self.node     = llist.base()
+  #   A LinkedListIterator instance.
+  def initialize(l_n = nil)
+    self.node     = l_n
     self.position = ZERO
   end
 
   # position().
   # @description
-  #   Gets the iterator's list position.
+  #   Gets position.
   # @return [Integer]
   #   The list position.
   def position()
@@ -35,9 +35,9 @@ class LinkedListIterator < LinkedListIteratorInt
 
   # data().
   # @description
-  #   Gets the data at the iterator's position.
-  # @return [Numeric, FalseClass, Symbol, TrueClass, String, Time, NilClass]
-  #   The data at the position.
+  #   Gets node's data.
+  # @return [DataType]
+  #   The data.
   def data()
 
     node = node()
@@ -46,122 +46,132 @@ class LinkedListIterator < LinkedListIteratorInt
 
   end
 
-  # data=(data = nil).
+  # data=(dti = nil).
   # @description
-  #   Sets the data at the iterator's position.
-  # @param data [Numeric, FalseClass, Symbol, TrueClass, String, Time, NilClass]
-  #   The replacement data.
-  # @return [Numeric, FalseClass, Symbol, TrueClass, String, Time, NilClass]
+  #   Sets node's data.
+  # @param dti [DataType]
+  #   The data setting.
+  # @return [DataType]
   #   The argument.
-  def data=(data = nil)
-    node      = node()
-    node.data = data
+  # @raise [DataError]
+  #   In the case the argument is anything other than a DataType type instance.
+  def data=(dti = nil)
+
+    unless (DataType.instance?(dti))
+      raise(DataError, "#{dti} is not a DataType type instance.")
+    else
+
+      n     = node()
+      sub_n = Node.new(n.back(), dti, n.front())
+      n.substitute(sub_n)
+
+    end
+
   end
 
   # identical_node?(inst = nil).
   # @description
-  #   Compares the argument and the node at the iterator's position.
+  #   Compares the argument and node.
   # @param inst [.]
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
-  #   True in the case the argument and the node at the iterator's position
-  #   are identical.
+  #   True in the case the argument and node are identical.
   def identical_node?(inst = nil)
     return (node() === inst)
   end
 
   # eql_node?(inst = nil).
   # @description
-  #   Compares the argument and the node at self's position.
+  #   Compares the argument and node.
   # @param inst [.]
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
-  #   True in the case the instances are equivalent. False otherwise.
+  #   True in the case the instances are attributively equal. False otherwise.
   def eql_node?(inst = nil)
     return (node() == inst)
   end
 
-  # ===(lliter = nil).
+  # ===(inst = nil).
   # @description
   #   Identity comparison operator. Compares the argument and self.
-  # @param lliter [.]
+  # @param inst [.]
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
-  #   True in the case the iterators are identical. False otherwise.
-  def ===(lliter = nil)
-    return equal?(lliter)
+  #   True in the case the instances are identical. False otherwise.
+  def ===(inst = nil)
+    return equal?(inst)
   end
 
-  # ==(lliter = nil).
+  # ==(inst = nil).
   # @description
   #   Equality operator. Compares the argument and self.
-  # @param lliter [.]
+  # @param inst [.]
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
-  #   True in the case the argument is an iterator, and, the iterators'
-  #   positions' nodes are equal and the nodes at the remaining list positions
-  #   are equal.
-  def ==(lliter = nil)
+  #   True in the case the argument is an iterator and the iterators are
+  #   attributively equal. Attributive equality refers the iterators' nodes
+  #   and the iterators' sizes are 'eql?'.
+  def ==(inst = nil)
 
     nodes_uneq = false
     case
-    when !lliter.instance_of?(LinkedListIterator)
+    when !inst.instance_of?(LinkedListIterator)
       return nodes_uneq
-    when !(position() === lliter.position())
+    when !(position().eql?(inst.position()) && inst.eql_node?(node()))
       return nodes_uneq
     else
-      unless (lliter.eql_node?(node()))
-        return nodes_uneq
-      end
       nodes_uneq = !nodes_uneq
     end
     return nodes_uneq
 
   end
 
+  # prev().
+  # @description
+  #   Decrements position. Sets node the back reference.
+  # @return [NilClass]
+  #   nil.
+  def prev()
+
+    pos   = position()
+    error = IndexError
+    unless (pos > (count_nodes() - ONE))
+      raise(error, 'The position is zero.')
+    else
+
+      node          = node()
+      prev_node     = node.back()
+      self.node     = prev_node
+      self.position -= ONE
+
+    end
+    return nil
+
+  end
+
   # next().
   # @description
-  #   Increments the iterator's list position. Sets the node attribute the
-  #   node's front instance reference.
+  #   Increments position. Sets node the node's front reference.
   # @return [NilClass]
   #   nil.
   def next()
 
     pos   = position()
     error = IndexError
-    unless (pos < (count_nodes() - 1))
-      raise(error, 'The position is the list\'s upper boundary.')
+    unless (pos < (count_nodes() - ONE))
+      raise(error, 'The position is the list\'s size less one.')
     else
+
       node          = node()
       next_node     = node.front()
       self.node     = next_node
-      self.position += 1
+      self.position += ONE
+
     end
     return nil
 
   end
 
-  # prev().
-  # @description
-  #   Decrements the iterator's list position. Sets the node attribute the
-  #   node's back instance reference.
-  # @return [NilClass]
-  #   nil.
-  def prev()
-
-    pos   = position()
-    error = IndexError.new()
-    unless (pos > (count_nodes() - 1))
-      raise(error, 'The position is the list\'s lower boundary.')
-    else
-      node          = node()
-      prev_node     = node.back()
-      self.node     = prev_node
-      self.position -= 1
-    end
-    return nil
-
-  end
 
   private
 
@@ -174,43 +184,37 @@ class LinkedListIterator < LinkedListIteratorInt
     return @node
   end
 
-  # node=(node = nil).
+  # node=(n = nil).
   # @description
-  #   Sets the iterator's node reference.
-  # @param node [Node]
-  #   The initializing linked list's node reference.
-  # @return node [Node]
+  #   Sets node.
+  # @param n [Node]
+  #   The initializing node reference.
+  # @return [Node]
   #   The argument.
-  def node=(node = nil)
+  def node=(n = nil)
 
-    error = TypeError.new()
-    unless (node.instance_of?(Node))
+    error = NodeError.new()
+    unless (n.instance_of?(Node))
+
       e_message = 'Calling the constructor outside the corresponding' +
-          'LinkedList\'s \'iterator\' method is illegal.'
+          'LinkedList\'s \'iterator()\' method is illegal.'
       raise(error, e_message)
+
     else
-      @node = node
+      @node = n
     end
 
   end
 
-  # position=(integer = nil).
+  # position=(int = nil).
   # @description
-  #   Sets the iterator's position.
-  # @param integer [Integer]
-  #   The list position.
+  #   Sets position.
+  # @param int [Integer]
+  #   The list position. Any number zero through list size less one.
   # @return [Integer]
   #   The argument.
-  def position=(integer = nil)
-
-    unless (integer.instance_of?(Integer))
-      e_message = "The position attribute refers an Integer instance" +
-          ". #{integer} is not an Integer instance."
-      raise(ArgumentError, e_message)
-    else
-      @position = integer
-    end
-
+  def position=(int = nil)
+    @position = int
   end
 
   # count_nodes().
@@ -220,13 +224,13 @@ class LinkedListIterator < LinkedListIteratorInt
   #   The list's node quantity.
   def count_nodes()
 
-    count = 1
+    count = ONE
     lbr   = node()
     while (!lbr.back().nil?())
       lbr = lbr.back()
     end
     while (!lbr.front().nil?())
-      count += 1
+      count += ONE
       lbr   = lbr.front()
     end
     return count
@@ -235,9 +239,11 @@ class LinkedListIterator < LinkedListIteratorInt
 
   # Private constants
 
-  ZERO           = 0.freeze()
+  ZERO           = 0
+  ONE            = 1
   LOWER_BOUNDARY = ZERO
   private_constant :ZERO
+  private_constant :ONE
   private_constant :LOWER_BOUNDARY
 
 end

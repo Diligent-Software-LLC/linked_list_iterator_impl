@@ -33,11 +33,10 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="Bumped Dependencies&#10;&#10;Updated dependencies.">
+    <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_impl/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_iterator_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_iterator_impl.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/linked_list_iterator_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_iterator_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="288" />
+    <option name="myElementSize" value="331" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -113,7 +112,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_eo_x1b" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_data_ass_x1" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="linked_list_iterator_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -134,7 +133,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/linked_list_iterator_impl_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_eo_x1b" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_data_ass_x1" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -142,7 +141,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_next_x1" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_data_ass_x2" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="linked_list_iterator_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -163,7 +162,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/linked_list_iterator_impl_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_next_x1" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_data_ass_x2" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -171,7 +170,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_node_ass_x2" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_data_x2" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="linked_list_iterator_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -192,7 +191,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/linked_list_iterator_impl_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_node_ass_x2" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_data_x2" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -200,7 +199,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_prev_x1" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_position_x2" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="linked_list_iterator_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -221,7 +220,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/linked_list_iterator_impl_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_prev_x1" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_position_x2" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -232,10 +231,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Test::Unit/Shoulda/Minitest.LinkedListIteratorTest" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_node_ass_x2" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_prev_x1" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_next_x1" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_eo_x1b" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_data_x2" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_data_ass_x2" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_data_ass_x1" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_position_x2" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +255,7 @@
       <updated>1586192114356</updated>
       <workItem from="1586192117273" duration="39625000" />
       <workItem from="1586644699225" duration="323000" />
-      <workItem from="1586812978931" duration="442000" />
+      <workItem from="1586812978931" duration="10176000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License.">
       <created>1586193827698</created>
@@ -307,10 +306,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586644904830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Setup Complete&#10;&#10;Updated Gem Specification.">
+      <created>1586813633231</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586813633231</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Setup} Sprints: 4" />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Prepare Deploy} Sprints: 4" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -338,7 +344,8 @@
     <MESSAGE value="Minor Edits&#10;&#10;Removed count_nodes parameter." />
     <MESSAGE value="Prepare Deploy&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Bumped Dependencies&#10;&#10;Updated dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bumped Dependencies&#10;&#10;Updated dependencies." />
+    <MESSAGE value="Setup Complete&#10;&#10;Updated Gem Specification." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Updated Gem Specification." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -350,26 +357,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586192389449" />
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586644911436">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1586813632664">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586644911436" />
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586813472997">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586813632664" />
+    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1586826538997">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586813472997" />
-    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1586813472995">
+    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586826538997" />
+    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1586826538996">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586813472995" />
-    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1586813472994">
+    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586826538996" />
+    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1586826538996">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586813472994" />
-    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1586813472996">
+    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586826538996" />
+    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1586826538997">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586813472996" />
+    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586826538997" />
     <state x="348" y="149" key="SettingsEditor" timestamp="1586192391136">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -390,10 +397,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1586276239700" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1586813164597">
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1586816013051">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586813164597" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586816013051" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_en_x2.rcov" NAME="test_en_x2 Coverage Results" MODIFIED="1586351234075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
@@ -403,18 +410,19 @@
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_eo_x2.rcov" NAME="test_eo_x2 Coverage Results" MODIFIED="1586349360292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_init_x3.rcov" NAME="test_init_x3 Coverage Results" MODIFIED="1586349765671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_in_x2.rcov" NAME="test_in_x2 Coverage Results" MODIFIED="1586351096333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
-    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_position_x2.rcov" NAME="test_position_x2 Coverage Results" MODIFIED="1586350160103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
-    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_data_ass_x1.rcov" NAME="test_data_ass_x1 Coverage Results" MODIFIED="1586350535325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
+    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_position_x2.rcov" NAME="test_position_x2 Coverage Results" MODIFIED="1586816973641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_next_x1.rcov" NAME="test_next_x1 Coverage Results" MODIFIED="1586352438410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
+    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_data_ass_x1.rcov" NAME="test_data_ass_x1 Coverage Results" MODIFIED="1586816992786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_init_x1.rcov" NAME="test_init_x1 Coverage Results" MODIFIED="1586349697270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_eo_x1b.rcov" NAME="test_eo_x1b Coverage Results" MODIFIED="1586352060030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_node_ass_x2.rcov" NAME="test_node_ass_x2 Coverage Results" MODIFIED="1586352850116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_io_x2.rcov" NAME="test_io_x2 Coverage Results" MODIFIED="1586351417345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
-    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@LinkedListIteratorTest.rcov" NAME="LinkedListIteratorTest Coverage Results" MODIFIED="1586359056740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
-    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_data_ass_x2.rcov" NAME="test_data_ass_x2 Coverage Results" MODIFIED="1586350641935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
+    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@LinkedListIteratorTest.rcov" NAME="LinkedListIteratorTest Coverage Results" MODIFIED="1586826511041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_io_x1.rcov" NAME="test_io_x1 Coverage Results" MODIFIED="1586351354474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_eo_x1a.rcov" NAME="test_eo_x1a Coverage Results" MODIFIED="1586351844869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
+    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_data_ass_x2.rcov" NAME="test_data_ass_x2 Coverage Results" MODIFIED="1586816999175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_prev_x1.rcov" NAME="test_prev_x1 Coverage Results" MODIFIED="1586352594947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
+    <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_data_x2.rcov" NAME="test_data_x2 Coverage Results" MODIFIED="1586825713527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_in_x1b.rcov" NAME="test_in_x1b Coverage Results" MODIFIED="1586350934146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
   </component>
 </project>
