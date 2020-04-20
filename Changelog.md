@@ -1,14 +1,29 @@
 # Changelog
 
-## v1.1.0, 2020-04-17
+## v2.0.0, 2020-04-20
 
 ### Added
 
+- Protected method 'node_ref()'.
+- Test constants.
+- Test methods covering additions and deletions.
+
 ### Edited
 
-- 'node' dependency. Bumped 'node'.
+- Attribute Equality Operator.
+- Deleted 'identical_node?(inst = nil)'.
+- Deleted 'eql_node?(inst = nil)'.
+- Deleted 'count_nodes()'.
+- Deleted Travis CI deploy settings.
+- Metadata Changelog URI.
+- Dependencies.
 
 ### Fixed
+
+- 'data()'.
+- 'data=(dti = nil)'.
+- 'prev()'.
+- 'next()'.
 
 ## v1.0.1, 2020-04-13
 
