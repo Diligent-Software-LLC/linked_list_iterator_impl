@@ -57,6 +57,7 @@ class LinkedListIterator < LinkedListIteratorInt
   #   In the case the argument is anything other than a DataType type instance.
   def data=(dti = nil)
     node().substitute(dti)
+    return dti
   end
 
   # ===(inst = nil).
