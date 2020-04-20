@@ -25,8 +25,8 @@ $4, $8, and $16. Greatly appreciated.}
   spec.metadata['source_code_uri'] =
       "https://github.com/Diligent-Software-LLC/linked_list_iterator_impl"
   spec.metadata['changelog_uri']   =
-      "https://docs.diligentsoftware.org/linkedlist-1/iterator/implementation" +
-          "/packages#implementation_changelog"
+      "https://docs.diligentsoftware.org/linkedlist-1/iterator/" +
+          "packages#implementation_changelog"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been 
@@ -41,13 +41,13 @@ $4, $8, and $16. Greatly appreciated.}
   spec.require_paths = ["lib"]
 
   # Development and testing dependencies.
-  spec.add_development_dependency 'bundler', '~> 2.1.0'
-  spec.add_development_dependency 'simplecov', '~> 0.17.0'
-  spec.add_development_dependency 'linked_list_iterator_int', '~> 1.0.1'
-  spec.add_development_dependency 'node', '~> 3.0.0'
+  spec.add_development_dependency 'bundler', '~> 2.1'
+  spec.add_development_dependency 'simplecov', '~> 0.17'
+  spec.add_development_dependency 'linked_list_iterator_int', '~> 1'
+  spec.add_development_dependency 'node', '~> 4'
 
   # Gem specific runtime dependencies.
-  spec.add_runtime_dependency 'linked_list_iterator_int', '~> 1.0.1'
-  spec.add_runtime_dependency 'node', '~> 3.0.0'
+  spec.add_runtime_dependency 'linked_list_iterator_int', '~> 1'
+  spec.add_runtime_dependency 'node', '~> 4'
 
 end

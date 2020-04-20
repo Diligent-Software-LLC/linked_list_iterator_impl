@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.0, 2020-04-17
+
+### Added
+
+### Edited
+
+- 'node' dependency. Bumped 'node'.
+
+### Fixed
+
 ## v1.0.1, 2020-04-13
 
 ### Added

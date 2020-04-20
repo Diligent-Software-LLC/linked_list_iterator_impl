@@ -8,8 +8,9 @@ class LinkedListIteratorTest < Minitest::Test
   # Constants.
   CLASS        = LinkedListIterator
   ZERO         = 0
+  ONE           = 1
   INTEGER_DATA = 4
-  NIL_DATA     = nil
+  NILCLASS_DATA = nil
   STRING_DATA  = 'hello'
   HASH_DATA    = {}
   TIME_DATA    = Time.now()
@@ -42,17 +43,20 @@ class LinkedListIteratorTest < Minitest::Test
   # @description
   #   Set fixtures.
   def setup()
-    @node        = Node.new(NIL_DATA, INTEGER_DATA, NIL_DATA)
+    @node = Node.new(NILCLASS_DATA, INTEGER_DATA, NILCLASS_DATA)
   end
 
   # initialize(l_n = nil)
 
   # test_init_x1().
   # @description
-  #   A data argument.
+  #   A Node argument.
   def test_init_x1()
-    x1_it = LinkedListIterator.new(@node)
-    assert_operator(x1_it, 'identical_node?', @node)
+
+    x1_it1 = LinkedListIterator.new(@node)
+    x1_it2 = LinkedListIterator.new(@node)
+    assert_equal(x1_it1, x1_it2)
+
   end
 
   # test_init_x2().
@@ -86,7 +90,7 @@ class LinkedListIteratorTest < Minitest::Test
   #   A valid Node, and valid data.
   def test_data_x2()
     x2_it = LinkedListIterator.new(@node)
-    assert_same(@node.data(), x2_it.data())
+    assert_same(@node.d(), x2_it.data())
   end
 
   # data=(dti = nil)
@@ -119,64 +123,6 @@ class LinkedListIteratorTest < Minitest::Test
   #   No arguments.
   def test_data_ass_x3()
     assert_raises(NodeError) { LinkedListIterator.new() }
-  end
-
-  # identical_node?(inst = nil)
-
-  # test_in_x1a().
-  # @description
-  #   An identical instance.
-  def test_in_x1a()
-    x1_it = LinkedListIterator.new(@node)
-    assert_operator(x1_it, 'identical_node?', @node)
-  end
-
-  # test_in_x1b().
-  # @description
-  #   A different instance.
-  def test_in_x1b()
-
-    diff  = Node.new(NIL_DATA, COMPLEX_DATA, NIL_DATA)
-    x1_it = LinkedListIterator.new(@node)
-    refute_operator(x1_it, 'identical_node?', diff)
-
-  end
-
-  # test_in_x2().
-  # @description
-  #   A String instance argument.
-  def test_in_x2()
-    x2_it = LinkedListIterator.new(@node)
-    refute_operator(x2_it, 'identical_node?', STRING_DATA)
-  end
-
-  # eql_node?(inst = nil)
-
-  # test_en_x1a().
-  # @description
-  #   An equal Node argument.
-  def test_en_x1a()
-    x1_it = LinkedListIterator.new(@node)
-    assert_operator(x1_it, 'eql_node?', @node)
-  end
-
-  # test_en_x1b().
-  # @description
-  #   An unequal node argument.
-  def test_en_x1b()
-
-    uneq  = Node.new(NIL_DATA, TIME_DATA, NIL_DATA)
-    x1_it = LinkedListIterator.new(@node)
-    refute_operator(x1_it, 'eql_node?', uneq)
-
-  end
-
-  # test_en_x1().
-  # @description
-  #   Any instance excluding a Node instance.
-  def test_en_x1()
-    x1_it = LinkedListIterator.new(@node)
-    refute_operator(x1_it, 'eql_node?', FLOAT_DATA)
   end
 
   # ===(inst = nil)
@@ -219,7 +165,8 @@ class LinkedListIteratorTest < Minitest::Test
   def test_eo_x2()
 
     x2_it1 = LinkedListIterator.new(@node)
-    x2_it2 = LinkedListIterator.new(Node.new(NIL_DATA, STRING_DATA, NIL_DATA))
+    it2_n  = Node.new(NILCLASS_DATA, STRING_DATA, NILCLASS_DATA)
+    x2_it2 = LinkedListIterator.new(it2_n)
     refute_operator(x2_it1, '==', x2_it2)
 
   end
@@ -242,6 +189,20 @@ class LinkedListIteratorTest < Minitest::Test
     assert_raises(IndexError) { x1_it.next() }
   end
 
+  # test_next_x2().
+  # @description
+  #   A chain.
+  def test_next_x2()
+
+    n = Node.new(NILCLASS_DATA, STRING_DATA, NILCLASS_DATA)
+    @node.attach_front(n)
+    x2_it1 = LinkedListIterator.new(@node)
+    x2_it1.next()
+    assert_same(x2_it1.position(), ONE)
+    assert_same(x2_it1.data(), STRING_DATA)
+
+  end
+
   # prev()
 
   # test_prev_x1().
@@ -250,6 +211,22 @@ class LinkedListIteratorTest < Minitest::Test
   def test_prev_x1()
     x1_it = LinkedListIterator.new(@node)
     assert_raises(IndexError) { x1_it.prev() }
+  end
+
+  # test_prev_x2().
+  # @description
+  #   A chain.
+  def test_prev_x2()
+
+    n = Node.new(NILCLASS_DATA, STRING_DATA, NILCLASS_DATA)
+    @node.attach_back(n)
+    n.attach_front(@node)
+    x2_it = LinkedListIterator.new(n)
+    x2_it.next()
+    x2_it.prev()
+    assert_same(x2_it.position(), ZERO)
+    assert_same(x2_it.data(), STRING_DATA)
+
   end
 
   # teardown().
