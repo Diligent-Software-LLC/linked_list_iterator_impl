@@ -1,5 +1,19 @@
 # Changelog
 
+## v2.1.0, 2020-04-21
+
+### Added
+
+- 'element()'.
+- Fixed 'require' statements in test_helper.rb.
+- 'element()' test coverage.
+
+### Edited
+
+- Dependencies.
+
+### Fixed
+
 ## v2.0.0, 2020-04-20
 
 ### Added
