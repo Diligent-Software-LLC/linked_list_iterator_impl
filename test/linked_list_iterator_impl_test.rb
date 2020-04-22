@@ -73,6 +73,19 @@ class LinkedListIteratorTest < Minitest::Test
     assert_raises(NodeError) { LinkedListIterator.new() }
   end
 
+  # element()
+
+  # test_element_x().
+  # @description
+  #   self's node attribute.
+  def test_element_x()
+
+    x_it         = LinkedListIterator.new(@node)
+    list_element = x_it.element()
+    assert_same(list_element, @node)
+
+  end
+
   # position()
 
   # test_position_x2()

@@ -2,6 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "linked_list_iterator_impl/version"
+require 'node'
 
 # LinkedListIterator.
 # @class_description
@@ -22,6 +23,15 @@ class LinkedListIterator < LinkedListIteratorInt
   def initialize(l_n = nil)
     self.node     = l_n
     self.position = ZERO
+  end
+
+  # element().
+  # @description
+  #   Gets the position's list element.
+  # @return [Node]
+  #   The element reference.
+  def element()
+    return node()
   end
 
   # position().
