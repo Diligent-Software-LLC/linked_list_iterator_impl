@@ -11,5 +11,5 @@ require 'linked_list_iterator_int'
 # @attr position [Integer]
 #   A list position.
 class LinkedListIterator < LinkedListIteratorInt
-  VERSION = '2.0.0'.freeze()
+  VERSION = '2.1.0'.freeze()
 end

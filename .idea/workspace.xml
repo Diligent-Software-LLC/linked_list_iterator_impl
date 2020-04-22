@@ -93,7 +93,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8d3fac7e-d74b-4ba8-aad8-0aa9777f9d3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list_iterator_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_iterator_impl.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +315,8 @@
       <workItem from="1586192117273" duration="39625000" />
       <workItem from="1586644699225" duration="323000" />
       <workItem from="1586812978931" duration="13101000" />
-      <workItem from="1587124790596" duration="12993000" />
+      <workItem from="1587124790596" duration="14402000" />
+      <workItem from="1587519469452" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, linked_list_iterator_impl.rb, linked_list_iterator_impl_test.rb, Rakefile, administrative files, and the GNU General Public License.">
       <created>1586193827698</created>
@@ -392,10 +395,24 @@
       <option name="project" value="LOCAL" />
       <updated>1587413477166</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1587413866165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587413866165</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Prepare Deployment&#10;&#10;Return in 'data=' was missing.">
+      <created>1587418000231</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587418000232</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Prepare Deployment} Sprints: 7" />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: Implementation #{Setup } Sprints: 8" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -425,9 +442,10 @@
     <MESSAGE value="Bumped Dependencies&#10;&#10;Updated dependencies." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated Gem Specification." />
     <MESSAGE value="Development Complete&#10;&#10;Fixed YARDocumentation. Updated linked_list_iterator_impl.rb method signatures. Rewrote data=. Assigned constant ONE. Fixed node= exception type. Rewrote linked_list_iterator_impl_test.rb." />
-    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Development Complete&#10;&#10;Bumped the Major Version. Fixed bug in 'data()'. Fixed 'data=(dti = nil)'. Edited Attribute Equality Operator. Fixed 'prev()'. Fixed 'next()'. Added protected method 'node_ref()'. Deleted 'identical_node?(inst = nil)' and 'eql_node(inst = nil)'. Deleted 'count_nodes()'. Added test constants. Added test methods covering additions and deletions. Deleted Travis CI deploy settings. Edited Gem Specification Changelog URI. Edited Gem Specification dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Bumped the Major Version. Fixed bug in 'data()'. Fixed 'data=(dti = nil)'. Edited Attribute Equality Operator. Fixed 'prev()'. Fixed 'next()'. Added protected method 'node_ref()'. Deleted 'identical_node?(inst = nil)' and 'eql_node(inst = nil)'. Deleted 'count_nodes()'. Added test constants. Added test methods covering additions and deletions. Deleted Travis CI deploy settings. Edited Gem Specification Changelog URI. Edited Gem Specification dependencies." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Return in 'data=' was missing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Return in 'data=' was missing." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -439,34 +457,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586192389449" />
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1587413476036">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2" timestamp="1587417999593">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587413476036" />
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1587412939788">
+    <state x="101" y="23" width="1470" height="974" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587417999593" />
+    <state width="1564" height="271" key="GridCell.Tab.0.bottom" timestamp="1587519927702">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587412939788" />
-    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1587412939787">
+    <state width="1564" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587519927702" />
+    <state width="1564" height="271" key="GridCell.Tab.0.center" timestamp="1587519927701">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587412939787" />
-    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1587412939787">
+    <state width="1564" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587519927701" />
+    <state width="1564" height="271" key="GridCell.Tab.0.left" timestamp="1587519927701">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587412939787" />
-    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1587412939788">
+    <state width="1564" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587519927701" />
+    <state width="1564" height="271" key="GridCell.Tab.0.right" timestamp="1587519927702">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587412939788" />
+    <state width="1564" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587519927702" />
     <state x="348" y="149" key="SettingsEditor" timestamp="1586192391136">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="348" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1586192391136" />
-    <state x="439" y="250" key="Vcs.Push.Dialog.v2" timestamp="1586868165547">
+    <state x="439" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587418040963">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="439" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1586868165547" />
+    <state x="439" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587418040963" />
     <state x="710" y="252" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1586361165539">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -479,10 +497,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1586276239700" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587413501030">
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587519888937">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587413501030" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587519888937" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_iterator_impl@test_en_x2.rcov" NAME="test_en_x2 Coverage Results" MODIFIED="1586351234075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_impl" />
